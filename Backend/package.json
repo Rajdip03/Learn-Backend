@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Learn Backend",
+  "type": "module",
+  "keywords": [
+    "Learn",
+    "Backend"
+  ],
+  "homepage": "https://github.com/Rajdip03/Learn-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Rajdip03/Learn-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rajdip03/Learn-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Rajdip Mondal",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
