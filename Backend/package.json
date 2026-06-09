@@ -17,11 +17,15 @@
   },
   "license": "ISC",
   "author": "Rajdip Mondal",
-  "main": "Server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev":"nodemon src/index.js"
   },
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
